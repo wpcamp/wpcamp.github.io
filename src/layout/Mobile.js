@@ -58,7 +58,8 @@ const Mobile = () => {
                     setToggle(!toggle);
                   }}
                 >
-                  {menu.name}
+
+                  {menu.name === "service" ? null: menu.name}
                 </a>
               </li>
             ))}

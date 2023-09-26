@@ -1,5 +1,6 @@
 import { TokyoContext } from "@/src/Context";
 import { useContext } from "react";
+import Link from "next/link";
 import ModalContainer from "./ModalContainer";
 const DetailsModal = () => {
   const { portfolioDetailsModal, setPortfolioDetailsModal } =
@@ -37,12 +38,12 @@ const DetailsModal = () => {
           </div>
           <div className="detailbox w-[30%] pl-[40px]">
             <ul className="list-none">
-              <li className="mb-[8px] w-full float-left">
+              {/* <li className="mb-[8px] w-full float-left">
                 <span className="first font-bold block text-black mb-[3px]">
                   Client
                 </span>
                 <span>{portfolioDetailsModal.client}</span>
-              </li>
+              </li> */}
               <li className="mb-[8px] w-full float-left">
                 <span className="first font-bold block text-black mb-[3px]">
                   Category
@@ -64,9 +65,15 @@ const DetailsModal = () => {
               </li>
               <li className="w-full float-left">
                 <span className="first font-bold block text-black mb-[3px]">
-                  Share
+                  <a href={portfolioDetailsModal.url} target="_blank" rel="noopener noreferrer"
+                    style={{
+                      color: 'blue',
+                      textDecoration: 'underline'
+                    }}>
+                    Live Link
+                  </a>
                 </span>
-                <ul className="share list-none relative top-[7px]">
+                {/* <ul className="share list-none relative top-[7px]">
                   {portfolioDetailsModal.share.map((social) => (
                     <li className="mr-[10px] inline-block" key={social.id}>
                       <a className="text-black text-[18px]" href={social.link}>
@@ -74,7 +81,7 @@ const DetailsModal = () => {
                       </a>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </li>
             </ul>
           </div>

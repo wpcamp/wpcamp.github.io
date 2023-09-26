@@ -12,9 +12,17 @@ const Intro = () => {
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
           Hi, I'm Will Campbell! I'm a full stack engineer with a degree in Environmental Science and Economics from Colby College. I was born in NYC, and grew up in Norwich, Vermont.
-          In 2023, after graduating, I pursued my passion for software engineering by enrolling in a full-time full stack bootcamp at App Academy. During my time there, I honed my technical skills and gained significant experience in JavaScript, React/Redux, Python, Flask, PostgreSQL, Express, Node.js, CSS, and HTML. Currently, I'm actively self-learning Solidity.
+          In 2023, after graduating, I pursued my passion for software engineering by enrolling in a full-time full stack bootcamp at App Academy. 
           In my free time I love long-distance backpacking, exploring fusion cuisines, playing squash, and listening to any podcast suggested to me!
 
+          Welcome to my page!
+
+          Hi, I'm Will Campbell! I'm a full stack engineer with a degree in Environmental Science and Economics from Colby College. 
+          I was born in NYC, grew up in Norwich, Vermont and spent a year each in England and Spain during my childhood. 
+          In 2023, after graduating from college and finishing 6 months of backpacking across Europe and Asia, I pursued my passion for software engineering by enrolling in a full-time, full stack bootcamp at App Academy. 
+          During my time there, I honed my technical skills and gained significant experience in JavaScript, React, Redux, Python, Flask, PostgreSQL, Express, Node.js, CSS, HTML, and other technologies. 
+          Currently, I'm actively self-learning Solidity.
+          In my free time I love long-distance hiking, exploring fusion cuisines, playing squash, bocce, skiing, and listening to podcasts.
           Welcome to my page!
         </p>
       </div>
