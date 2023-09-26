@@ -5,6 +5,7 @@ const ContactForm = () => {
     name: "",
     email: "",
     message: "",
+    userID: 1
   });
   const { name, email, message } = mailData;
   const [error, setError] = useState(null);
@@ -18,10 +19,10 @@ const ContactForm = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_zyvcei6", // service id
+          "template_mcfdixg", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "4oEIeEiVlXpri9-F5" // public api
         )
         .then(
           (response) => {

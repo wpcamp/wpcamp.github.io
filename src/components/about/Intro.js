@@ -3,7 +3,7 @@ const Intro = () => {
   return (
     <Fragment>
       <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-        <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
+        <img className="min-w-full" src="assets/img/intro/backgroundPic.jpeg" alt="image" />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
         <h3 className="text-[22px] font-bold">Will Campbell</h3>
@@ -11,18 +11,12 @@ const Intro = () => {
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, I'm Will Campbell! I'm a full stack engineer with a degree in Environmental Science and Economics from Colby College. I was born in NYC, and grew up in Norwich, Vermont.
-          In 2023, after graduating, I pursued my passion for software engineering by enrolling in a full-time full stack bootcamp at App Academy. 
-          In my free time I love long-distance backpacking, exploring fusion cuisines, playing squash, and listening to any podcast suggested to me!
-
-          Welcome to my page!
-
           Hi, I'm Will Campbell! I'm a full stack engineer with a degree in Environmental Science and Economics from Colby College. 
-          I was born in NYC, grew up in Norwich, Vermont and spent a year each in England and Spain during my childhood. 
+          I was born in NYC, grew up in Norwich, Vermont and have also lived in Cambridge, England and Salamanca, Spain. 
           In 2023, after graduating from college and finishing 6 months of backpacking across Europe and Asia, I pursued my passion for software engineering by enrolling in a full-time, full stack bootcamp at App Academy. 
           During my time there, I honed my technical skills and gained significant experience in JavaScript, React, Redux, Python, Flask, PostgreSQL, Express, Node.js, CSS, HTML, and other technologies. 
           Currently, I'm actively self-learning Solidity.
-          In my free time I love long-distance hiking, exploring fusion cuisines, playing squash, bocce, skiing, and listening to podcasts.
+          In my free time I love long-distance hiking, exploring new cuisines, playing squash, bocce, skiing, and listening to podcasts.
           Welcome to my page!
         </p>
       </div>
@@ -84,13 +78,19 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Github:
                 </span>
-                <span>wpcamp</span>
+                <span><a 
+                className="text-[#767676] transition-all duration-300 hover:text-black"
+                href="https://github.com/wpcamp/"
+                >wpcamp</a></span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   LinkedIn:
                 </span>
-                <span>will-campbell22</span>
+                <span><a 
+                className="text-[#767676] transition-all duration-300 hover:text-black"
+                href="https://www.linkedin.com/in/will-campbell22/"
+                >will-campbell22</a></span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
