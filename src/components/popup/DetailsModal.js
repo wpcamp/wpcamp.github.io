@@ -1,6 +1,5 @@
 import { TokyoContext } from "@/src/Context";
 import { useContext } from "react";
-import Link from "next/link";
 import ModalContainer from "./ModalContainer";
 const DetailsModal = () => {
   const { portfolioDetailsModal, setPortfolioDetailsModal } =
@@ -73,6 +72,15 @@ const DetailsModal = () => {
                     Live Link
                   </a>
                 </span>
+                <span className="first font-bold block text-black mb-[3px]">
+                  <a href={portfolioDetailsModal.git} target="_blank" rel="noopener noreferrer"
+                    style={{
+                      color: 'blue',
+                      textDecoration: 'underline'
+                    }}>
+                    Github Link
+                  </a>
+                </span>
                 {/* <ul className="share list-none relative top-[7px]">
                   {portfolioDetailsModal.share.map((social) => (
                     <li className="mr-[10px] inline-block" key={social.id}>
@@ -91,22 +99,23 @@ const DetailsModal = () => {
             <li className="mb-[30px] float-left w-1/2 pl-[30px]">
               <div className="list_inner w-full h-auto clear-both float-left relative">
                 <div className="my_image relative">
-                  <img
+                  {/* <img
                     className="opacity-0 min-w-full"
                     src="assets/img/thumbs/4-2.jpg"
                     alt="image"
                   />
                   <div
-                    className="main absolute inset-0 bg-no-repeat bg-center bg-cover"
-                    data-img-url="assets/img/portfolio/1.jpg"
+                    className="main absolute inset-0 bg-no-repeat bg-center bg-contain"
+                    data-img-url={portfolioDetailsModal.images[0]}
                     style={{
                       backgroundImage: `url(${portfolioDetailsModal.bigImage})`,
+                      backgroundSize: "contain",
                     }}
-                  />
+                  /> */}
                 </div>
               </div>
             </li>
-            {portfolioDetailsModal.images.map((img, i) => (
+            {/* {portfolioDetailsModal.images.map((img, i) => (
               <li key={i} className="mb-[30px] float-left w-1/2 pl-[30px]">
                 <div className="list_inner w-full h-auto clear-both float-left relative">
                   <div className="my_image relative">
@@ -117,15 +126,16 @@ const DetailsModal = () => {
                     />
                     <div
                       className="main absolute inset-0 bg-no-repeat bg-center bg-cover"
-                      data-img-url="assets/img/portfolio/2.jpg"
+                      data-img-url={portfolioDetailsModal.images[i]}
                       style={{
-                        backgroundImage: `url(${img})`,
+                        backgroundImage: `url(${portfolioDetailsModal.images[i]})`,
+                        backgroundSize: "contain",
                       }}
                     />
                   </div>
                 </div>
               </li>
-            ))}
+            ))} */}
           </ul>
         </div>
       </div>

@@ -7,7 +7,7 @@ import SectionTitle from "./SectionTitle";
 const detailData = [
   {
     id: 1,
-    thumbnail: "assets/img/portfolio/7.jpg",
+    thumbnail: "assets/img/portfolio/coinPort.png",
     title: "coinClone",
     text: [
       "Full stack project made using a React/Redux JS front-end and a Python Flask back-end.",
@@ -17,12 +17,13 @@ const detailData = [
     date: "September 2023",
     category: "Solo Project",
     url: "https://coin-clone.onrender.com/",
-    bigImage: "assets/img/portfolio/1.jpg",
-    images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
+    git: "https://github.com/wpcamp/coinClone",
+    bigImage: "assets/img/portfolio/coinPort.png",
+    images: ["assets/img/portfolio/coinShow.png", "assets/img/portfolio/coinWatch.png"],
   },
   {
     id: 2,
-    thumbnail: "assets/img/portfolio/8.jpg",
+    thumbnail: "assets/img/portfolio/uberRest.png",
     title: "VancouberEats",
     text: [
       "VancouberEats was a group project made using a React/Redux JS front-end and a Python Flask back-end.",
@@ -31,13 +32,14 @@ const detailData = [
     socials: [],
     date: "August 2023",
     url: "https://vancouvereats.onrender.com/",
+    git: "https://github.com/EricSapsford/UberEats-Clone",
     category: "Group Project",
-    bigImage: "assets/img/portfolio/1.jpg",
-    images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
+    bigImage: "assets/img/portfolio/uberRest.png",
+    images: ["assets/img/portfolio/uberOrder.png", "assets/img/portfolio/uberHome.png"],
   },
   {
     id: 3,
-    thumbnail: "assets/img/portfolio/8.jpg",
+    thumbnail: "assets/img/portfolio/airSpot.png",
     title: "NotAirbnb",
     text: [
       "NotAirbnb is a solo project made using a React/Redux JS front-end and a Express JS back-end.",
@@ -45,10 +47,11 @@ const detailData = [
     ],
     socials: [],
     url: "https://not-airbnb-sqh8.onrender.com/",
+    git: "https://github.com/wpcamp/not-airbnb-clone",
     date: "July 2023",
     category: "Solo Project",
-    bigImage: "assets/img/portfolio/1.jpg",
-    images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
+    bigImage: "assets/img/portfolio/airHome.png",
+    images: ["assets/img/portfolio/airSpot.png", "assets/img/portfolio/airRev.png"],
   },
 ];
 const Portfolio = () => {
@@ -115,7 +118,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/7.jpg"
+                        data-img-url="assets/img/thumbs/openWallet.png"
                       />
                     </a>
                   </div>
@@ -144,7 +147,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/8.jpg"
+                        data-img-url="assets/img/thumbs/uberEats.png"
                       />
                     </a>
                   </div>
@@ -172,7 +175,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/7.jpg"
+                        data-img-url="assets/img/thumbs/notAirbnb.png"
                       />
                     </a>
                   </div>
