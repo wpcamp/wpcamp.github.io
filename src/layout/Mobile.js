@@ -59,7 +59,7 @@ const Mobile = () => {
                   }}
                 >
 
-                  {menu.name === "service" ? null: menu.name}
+                  {menu.name === "service" ? "skills": menu.name}
                 </a>
               </li>
             ))}
