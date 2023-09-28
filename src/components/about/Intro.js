@@ -11,10 +11,10 @@ const Intro = () => {
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, I'm Will Campbell! I'm a full stack engineer with a degree in Environmental Science and Economics from Colby College. 
-          I was born in NYC, grew up in Norwich, Vermont and have also lived in Cambridge, England and Salamanca, Spain. 
-          In 2023, after graduating from college and finishing 6 months of backpacking across Europe and Asia, I pursued my passion for software engineering by enrolling in a full-time, full stack bootcamp at App Academy. 
-          During my time there, I honed my technical skills and gained significant experience in JavaScript, React, Redux, Python, Flask, PostgreSQL, Express, Node.js, CSS, HTML, and other technologies. 
+          I'm a full stack engineer with a degree in Environmental Science and Economics from Colby College.
+          I was born in NYC, grew up in Norwich, Vermont and have also lived in Cambridge, England and Salamanca, Spain.
+          In 2023, after graduating from college and finishing 6 months of backpacking across Europe and Asia, I pursued my passion for software engineering by enrolling in a full-time, full stack bootcamp at App Academy.
+          During my time there, I honed my technical skills and gained significant experience in JavaScript, React, Redux, Python, Flask, PostgreSQL, Express, Node.js, CSS, HTML, and other technologies.
           Currently, I'm actively self-learning Solidity.
           In my free time I love long-distance hiking, exploring new cuisines, playing squash, bocce, skiing, and listening to podcasts.
           Welcome to my page!
@@ -78,32 +78,32 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Github:
                 </span>
-                <span><a 
-                className="text-[#767676] transition-all duration-300 hover:text-black"
-                href="https://github.com/wpcamp/"
+                <span><a
+                  className="text-[#767676] transition-all duration-300 hover:text-black"
+                  href="https://github.com/wpcamp/"
                 >wpcamp</a></span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   LinkedIn:
                 </span>
-                <span><a 
-                className="text-[#767676] transition-all duration-300 hover:text-black"
-                href="https://www.linkedin.com/in/will-campbell22/"
+                <span><a
+                  className="text-[#767676] transition-all duration-300 hover:text-black"
+                  href="https://www.linkedin.com/in/will-campbell22/"
                 >will-campbell22</a></span>
               </li>
-              <li className="m-0">
+              {/* <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   wellfound:
                 </span>
                 <span>TBD</span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
       </div>
       <div className="tokyo_tm_button" data-position="left">
-        <a href="assets/img/cv/1.jpg" download>
+        <a href="assets/img/cv/campbell.pdf" download>
           <span>Download Resume</span>
         </a>
       </div>
