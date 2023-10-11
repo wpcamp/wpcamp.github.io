@@ -16,7 +16,7 @@ const detailData = [
     socials: [],
     date: "September 2023",
     category: "Solo Project",
-    url: "https://coin-clone.onrender.com/",
+    url: "https://coinclone-thesecond.onrender.com/",
     git: "https://github.com/wpcamp/coinClone",
     bigImage: "assets/img/portfolio/coinPort.png",
     images: ["assets/img/portfolio/coinShow.png", "assets/img/portfolio/coinWatch.png"],
