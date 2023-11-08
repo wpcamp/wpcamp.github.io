@@ -1,24 +1,30 @@
 const experiencesData = [
   {
-    id: 1, 
+    id: 1,
+    date: "September 2023 - Present",
+    designation: "Research Assistant",
+    company: "HealthX Lab @ Dartmouth College",
+  },
+  {
+    id: 2,
     date: "June - November 2022", 
     designation: "Sous Chef",
     company: "Carpenter and Main"
   },
   {
-    id: 2,
+    id: 3,
     date: "June 2021 - April 2022",
     designation: "GIS Research Assistant",
     company: "Colby College Environmental Science Department",
   },
   {
-    id: 3,
+    id: 4,
     date: "March - August 2020",
     designation: "R Data Analyst",
     company: "Irland Group",
   },
   {
-    id: 4,
+    id: 5,
     date: "June - August 2019",
     designation: "Independent Researcher",
     company: "Oak Institute for Human Rights",
