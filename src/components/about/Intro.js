@@ -103,7 +103,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="tokyo_tm_button" data-position="left">
-        <a href="assets/img/cv/campbell.pdf" download>
+        <a href="assets/img/cv/Campbell-1-1.pdf" download>
           <span>Download Resume</span>
         </a>
       </div>
