@@ -2,7 +2,7 @@ const experiencesData = [
   {
     id: 1,
     date: "September 2023 - Present",
-    designation: "Research Assistant",
+    designation: "AI Research Assistant",
     company: "HealthX Lab @ Dartmouth College",
   },
   {
